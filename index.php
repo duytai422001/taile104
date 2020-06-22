@@ -80,6 +80,12 @@
         			<li><a href="https://www.facebook.com/">Facebook</a></li>
         			<li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a></li>
         			<li><a href="https://www.instagram.com/">Instagram</a></li>
+                                <li><a href="ConnectToDB.php">view</a></li>
+                                <li><a href="DeleteData.php">Delete</a></li>
+                                <li><a href="InsertData.php">Insert</a></li>
+                                <li><a href="UpdateData.php">Update</a></li>
+                                
+                                
         		</ul>
         	</div>
         	<div class="footer-about"> 
