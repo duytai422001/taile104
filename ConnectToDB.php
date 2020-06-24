@@ -14,6 +14,11 @@
 </head>
 
 <?php
+ini_set('display_errors', 1);
+
+?>
+
+<?php
 
 
 if (empty(getenv("DATABASE_URL"))){
@@ -43,19 +48,6 @@ $resultSet = $stmt->fetchAll();
 echo '<p>productinformation:</p>';
 
 ?>
-<body>
-	<form class="box" action="Login.html" method="post">
-		<h1>Login</h1>
-		<input class="signup" type="text" name="" placeholder="Username">
-		<input class="signup" type="password" name="" placeholder="Password">
-		<input class="signup" type="submit" name="" value="Login">
-		<div class="container">
-		<div class="instagram"><a href="https://www.instagram.com/"><img src="./img/instagram.jpg" ></a></div>
-	<div class="facebook"><a href="https://www.facebook.com/"><img src="./img/facebook.png"></a></div>
-    <div class="google"><a href="https://mail.google.com/"><img src="./img/google.jpg"></a></div>	
-    </div>
-    </div>
-	</form> 
 	
 
 </body>
