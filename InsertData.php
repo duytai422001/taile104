@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>Insert data to PostgreSQL with php - creating a simple web application</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style>
-li {
-list-style: none;
-}
-</style>
-</head>
+<head>
+	<title>Insert product</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
 <body>
-<h1>INSERT DATA TO DATABASE</h1>
-<h2>Enter data into student table</h2>
-<ul>
-    <form name="InsertData" action="InsertData.php" method="POST" >
-<li>product ID:</li><li><input type="text" name="productID" /></li>
-<li>produc tname:</li><li><input type="text" name="productname" /></li>
-<li>size:</li><li><input type="text" name="size" /></li>
-<li>basicprice:</li><li><input type="text" name="basicprice" /></li>
-<li>residual:</li><li><input type="text" name="residual" /></li>
-<li><input type="submit" /></li>
-</form>
-</ul>
+    <form class="box" action="InsertData.php" method="post">
+		<h1>Insert Product</h1>
+		<input class="signup" type="text" name="productid" placeholder="Product id">
+		<input class="signup" type="text" name="productname" placeholder="Product name">
+		<input class="signup" type="text" name="size" placeholder="Size">
+		<input class="signup" type="text" name="basicprice" placeholder="Basic price">
+		<input class="signup" type="text" name="residual" placeholder="Residual">
+		<input class="signup" type="submit" name="" value="submit">
+    </div>
+	</form> 
+	
+
+</body>
+</html>
+
 
 <?php
 
@@ -58,10 +55,10 @@ if($pdo === false){
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
 $sql = "INSERT INTO product(productid, productname,size, basicprice,residual)"
-        . " VALUES('$_POST[productid]','$_POST[productname]','$_POST[size]','$_POST[basicprice]','$_POST[residual]'";
+        . " VALUES('$_POST[productid]','$_POST[productname]','$_POST[size]','$_POST[basicprice]','$_POST[residual]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
- if (is_null($_POST[StudentID])) {
+ if (is_null($_POST[productid])) {
    echo "productid must be not null";
  }
  else
