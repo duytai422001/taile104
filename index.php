@@ -82,7 +82,7 @@
         			<li><a href="https://www.facebook.com/">Facebook</a></li>
         			<li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a></li>
         			<li><a href="https://www.instagram.com/">Instagram</a></li>
-                                <li><a href="ConnectToDB.php">view</a></li>
+                                
                                 
                                 
                                 
