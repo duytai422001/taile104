@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
+<head>
+<title>View</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
+        <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-<h1>DATABASE CONNECTION</h1>
-
-<?php
-ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0702!";
-?>
+</head>
 
 <?php
 
@@ -39,6 +43,22 @@ $resultSet = $stmt->fetchAll();
 echo '<p>productinformation:</p>';
 
 ?>
+<body>
+	<form class="box" action="Login.html" method="post">
+		<h1>Login</h1>
+		<input class="signup" type="text" name="" placeholder="Username">
+		<input class="signup" type="password" name="" placeholder="Password">
+		<input class="signup" type="submit" name="" value="Login">
+		<div class="container">
+		<div class="instagram"><a href="https://www.instagram.com/"><img src="./img/instagram.jpg" ></a></div>
+	<div class="facebook"><a href="https://www.facebook.com/"><img src="./img/facebook.png"></a></div>
+    <div class="google"><a href="https://mail.google.com/"><img src="./img/google.jpg"></a></div>	
+    </div>
+    </div>
+	</form> 
+	
+
+</body>
 <div id="container">
 <table class="table table-bordered table-condensed">
     <thead>
@@ -47,7 +67,7 @@ echo '<p>productinformation:</p>';
         <th>product name</th>
         <th>size</th>
         <th>basicprice</th>
-          <th>residual</th>
+        <th>residual</th>
       </tr>
     </thead>
     <tbody>

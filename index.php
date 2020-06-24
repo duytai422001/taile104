@@ -28,13 +28,15 @@
     <nav>
         <ul>
         <li class="Iphone">
-        <a href="Iphone.html"target="blank">Iphone</a> 
+        <a href="Iphone.html"target="blank">Robot</a> 
         </li>
        <li class="Applewatch">
-        <a href="Applewatch.html"target="blank">Apple Watch</a> 
+        <a href="Applewatch.html"target="blank">Doll</a> 
        </li> 
-      <li class="MacBook"><a href="MacBook.html"target="blank">MacBook</a> 
+      <li class="MacBook"><a href="MacBook.html"target="blank">Teddy bear</a> 
         </li>
+         <li><a href="InsertData.php">Insert</a></li>
+         <li><a href="ConnectToDB.php">view</a></li>
         </ul>
     </nav>		
     
@@ -81,9 +83,7 @@
         			<li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a></li>
         			<li><a href="https://www.instagram.com/">Instagram</a></li>
                                 <li><a href="ConnectToDB.php">view</a></li>
-                                <li><a href="DeleteData.php">Delete</a></li>
-                                <li><a href="InsertData.php">Insert</a></li>
-                                <li><a href="UpdateData.php">Update</a></li>
+                                
                                 
                                 
         		</ul>
