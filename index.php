@@ -45,23 +45,23 @@
     		<div class="container1">
     	<div class="box1">
     		<a href="MacBook.html"target="blank">
-    		<img src="./Img/img/laptop.png">
+                    <img src="./Img/teddy.jpg">
     		</a>
-    		<h3>MacBook</h3>
+    		<h3>Teddy Bear</h3>
     		
     	</div>
     	<div class="box2">
     		<a href="Iphone.html"target="blank">
-    		<img src="./Img/img/iphone.png" >
+                    <img src="./Img/robot.jpg" >
     		</a>
-    		<h3>Iphone</h3>
+    		<h3>Robot</h3>
     		
     	</div>
     	<div class="box3">
     		<a href="Applewatch.html"target="blank">
-    		<img src="./Img/img/watch.png" >
+                    <img src="./Img/Doll.jpg" >
     		</a>
-    		<h3>Apple Watch</h3>
+    		<h3>Doll</h3>
     		
     	</div>
     </div>
